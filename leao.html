@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Leão Africano</title>
+    <style>
+        body {
+            background-color:lemonchiffon;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #333;
+            color: lightgrey;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .image {
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .content {
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .content p {
+            margin-bottom: 10px;
+        }
+        
+        .content ul {
+            padding-left: 20px;
+        }
+        
+        .content li {
+            margin-bottom: 5px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: lightgray;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Leão Africano</h1>
+    </header>
+    
+    <div class="container">
+        <div class="image">
+            <img src="img/leao.jpg" alt="Leão Selvagem"onclick="playRugido()">
+            <script>
+                function playRugido() {
+                    var audio = new Audio('audio/leao.mp3');
+                    audio.play();
+                }
+            </script>
+        </div>
+        
+        <div class="content">
+            
+            
+            
+            
+            <ul>
+                <li>O leão é conhecido como o "Rei da Selva" devido à sua imponência e força.</li>
+                <li>Os leões são os únicos felinos que vivem em grupos sociais chamados de "manadas".</li>
+                <li>Os leões machos possuem uma juba que os diferencia das fêmeas.</li>
+                <li>Os leões são excelentes caçadores, sendo capazes de derrubar presas de grande porte, como zebras e búfalos.</li>
+                <li>Habitat: Os leões são encontrados principalmente em savanas, pradarias e algumas áreas de floresta da África Subsaariana.</li>
+        <li>Características físicas: Os leões adultos têm um comprimento de corpo de cerca de 1,4 a 2,5 metros e uma altura de ombro de cerca de 1 metro.</li>
+        <li>Hábitos alimentares: Os leões são carnívoros e são conhecidos como predadores de topo em seus ecossistemas.</li>
+        <li>Comportamento social: Os leões vivem em grupos chamados de "coalizões" ou "manadas".</li>
+        <li>Ciclo de vida: As leoas são as principais cuidadoras dos filhotes.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2023 Leão Africano. Todos os direitos reservados.
+    </footer>
+</body>
+</html>

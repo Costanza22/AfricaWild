@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hipopótamo</title>
+    <style>
+        body {
+            background-color:lemonchiffon;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #333;
+            color: lightgrey;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .image {
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .content {
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .content p {
+            margin-bottom: 10px;
+        }
+        
+        .content ul {
+            padding-left: 20px;
+        }
+        
+        .content li {
+            margin-bottom: 5px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: lightgray;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hipopótamo</h1>
+    </header>
+    
+    <div class="container">
+        <div class="image">
+            <img src="img/hipopotamo.jpg" alt="Hipopótamo"onclick="play()">
+            <script>
+                function play() {
+                    var audio = new Audio('audio/hipopotamo.mp3');
+                    audio.play();
+                }
+            </script>
+        </div>
+        
+        <div class="content">
+            
+
+
+
+            
+            <ul>
+
+                <li>- Tamanho: Os hipopótamos adultos são grandes e robustos, podendo chegar a até 3,5 metros de comprimento e pesar entre 1,5 e 4 toneladas.</li>
+                <li>- Habitat: Eles são encontrados principalmente em rios, lagos e áreas alagadas da África subsaariana.</li>
+                <li>- Dieta: Os hipopótamos são herbívoros e se alimentam principalmente de gramíneas. Eles saem da água à noite para pastar e podem consumir grandes quantidades de vegetação.</li>
+                <li>- Características físicas: Eles possuem uma cabeça grande com boca larga e dentes afiados. Sua pele é espessa e quase sem pelos, com uma cor cinza a marrom.</li>
+                <li>- Comportamento: Os hipopótamos são animais sociais e vivem em grupos chamados de manadas. Eles são conhecidos por serem agressivos e podem ser muito perigosos, especialmente quando se sentem ameaçados.</li>
+                <li>- Reprodução: As fêmeas têm um período de gestação de aproximadamente 8 meses e geralmente dão à luz a um único filhote. Os filhotes podem nadar logo após o nascimento.</li>
+                <li>- Importância e conservação: Os hipopótamos desempenham um papel importante no ecossistema aquático, pois sua presença afeta a estrutura e a qualidade dos habitats aquáticos. No entanto, eles enfrentam ameaças, como perda de habitat e caça ilegal, e são considerados vulneráveis pela União Internacional para a Conservação da Natureza (IUCN).</li>
+            
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2023 Hipopótamo . Todos os direitos reservados.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zebra</title>
+    <style>
+        body {
+            background-color:lemonchiffon;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #333;
+            color: lightgrey;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .image {
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .content {
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .content p {
+            margin-bottom: 10px;
+        }
+        
+        .content ul {
+            padding-left: 20px;
+        }
+        
+        .content li {
+            margin-bottom: 5px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: lightgray;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zebra</h1>
+    </header>
+    
+    <div class="container">
+        <div class="image">
+            <img src="img/zebra.jpg" alt="Cao"onclick="play()">
+            <script>
+                function play() {
+                    var audio = new Audio('audio/zebra.mp3');
+                    audio.play();
+                }
+            </script>
+        </div>
+        
+        <div class="content">
+            
+
+            <ul>
+
+                <li>A zebra é um animal fascinante conhecido por suas distintas listras pretas e brancas. Ela pertence à família Equidae, que também inclui cavalos e burros. As zebras são nativas da África e são encontradas principalmente em savanas, pradarias e planícies abertas.</li>
+
+                <li>As zebras possuem um corpo semelhante ao de um cavalo, com pernas longas e uma estrutura esguia. Elas são herbívoras e se alimentam principalmente de gramíneas e outras plantas. As listras pretas e brancas das zebras servem como uma forma natural de camuflagem, tornando difícil para os predadores distinguirem uma zebra individual dentro de um grupo.</li>
+
+                    <li>Existem três principais espécies de zebras: a zebra das planícies, a zebra de Grevy e a zebra da montanha. Cada espécie possui características únicas e preferências de habitat distintas.</li>
+
+                        <li>As zebras são animais altamente sociais e geralmente são encontradas em grupos. Elas têm uma estrutura social complexa, com um macho dominante, conhecido como garanhão, liderando o grupo. As listras no pelo de uma zebra são únicas para cada indivíduo, assim como as impressões digitais humanas, o que ajuda na identificação dentro do grupo.</li>
+
+                            <li>As zebras são conhecidas por sua agilidade e velocidade.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2023 Zebra . Todos os direitos reservados.
+    </footer>
+</body>
+</html>
